@@ -12,8 +12,10 @@ class Dados extends Component{
   render(){
     return(
       <div>
-        <h1>Nome:{this.state.nome}</h1>
-        <h2>Idade:{this.state.idade}</h2>
+        <h1>Nome: {this.state.nome}</h1>
+        <h2>Idade: {this.state.idade}</h2>
+        <h3>Comida favorita: {this.state.comida}
+        </h3>
         <h2>Músicas:</h2>
         <ol>
           <li>{this.state.musicas[0]}</li>
